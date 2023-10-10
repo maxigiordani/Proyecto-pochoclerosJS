@@ -1,0 +1,180 @@
+.titulotabla {
+  margin-top: 150px;
+}
+
+.botonagregar {
+  display: flex;
+  margin-bottom: 15px;
+  margin-left: 1550px;
+}
+
+
+.margentabla {
+  margin: 55px;
+ 
+}
+
+.navbar-principal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 3px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 700;
+}
+
+
+.titulo {
+  display: flex;
+  position: fixed;
+  padding-left: 6%;
+  text-decoration: none;
+
+
+}
+
+.titulo a {
+  color: white;
+  text-decoration: none;
+}
+
+
+.navbar-principal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 3px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-right: 0px;
+}
+
+
+
+.titulo {
+  display: flex;
+  position: fixed;
+  padding-left: 6%;
+  text-decoration: none;
+
+}
+
+.titulo a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo img {
+  max-height: 100px;
+}
+
+.boton {
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.boton:hover {
+  background-color: #3A01DF;
+  border: none;
+}
+
+
+.footer-principal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+
+}
+
+.copyright {
+  color: white;
+}
+
+.linkacerca {
+  color: white;
+  text-decoration: none;
+  margin: 15px;
+}
+
+.linkcontacto {
+  color: white;
+  text-decoration: none;
+}
+
+.linkacerca:hover {
+  background-color: #3A01DF;
+
+}
+
+.linkcontacto:hover {
+  background-color: #3A01DF;
+}
+
+.linkface {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+
+}
+
+.linktwitter {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.linkinstagram {
+  color: white;
+  margin-left: 15px;
+  margin-right: 30px;
+  text-decoration: none;
+}
+
+.linkface:hover {
+  background-color: #3A01DF;
+}
+
+.linktwitter:hover {
+  background-color: #3A01DF;
+}
+
+.linkinstagram:hover {
+  background-color: #3A01DF;
+}
+
+
+.destacada .accion-destacar {
+  background-color: yellow;
+  color: black;
+  border-color: red;
+  border-style: dashed;
+
+}
+
+.modal-body input {
+  padding: 10px;
+}
+
+#nuevadescripcion {
+  margin-bottom: 20px;
+}
+
+#descripcion {
+  margin-bottom: 15px;
+}
+
+.botonadm {
+  color: aliceblue;
+  background-color: #3A01DF;
+}

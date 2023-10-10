@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Página de registro" />
+    <meta name="keywords" content="registro, sign in" />
+    <meta name="author" content="Enzo Campos" />
+    <link rel="shortcut icon" href="../img/LOGOparaHEADpng.png" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/registronosotros.css" />
+    <title>Registrate</title>
+  </head>
+  <body id="bodySign">
+    <nav class="navbar-principal">
+      <div class="logo">
+        <a href="/index1.html"
+          ><img src="/img/LOGO1.png" alt="logoprincipal"
+        /></a>
+      </div>
+      <div class="titulo">
+        <h1 class="h2">
+          <a href="/index1.html">POCHOCLEROS.TV</a>
+        </h1>
+      </div>
+      <div class="nav-buttons">
+        <a href="/index1.html"
+          ><button class="boton btn btn-light btn-lg ml-2 px-3">
+            Inicio
+          </button></a
+        >
+        <a href=""
+          ><button class="boton btn btn-light btn-lg ml-2 px-3">
+            Login
+          </button></a
+        >
+        <a href="/pages/registro.html"
+          ><button class="boton btn btn-light btn-lg ml-2 px-3">
+            Registro
+          </button></a
+        >
+      </div>
+    </nav>
+    <div class="container" id="divBodySign">
+      <section class="d-grid justify-content-center">
+        <div>
+          <a href="../index1.html"
+            ><img src="../img/pochoclos_LOGO.png" id="logoSignIn" alt="logo"
+          /></a>
+        </div>
+        <div class="px-5 my-1" id="signDiv">
+          <h1 class="my-4">Registrate gratis</h1>
+          <form id="registroForm">
+            <div class="mb-3 col-md-7">
+              <label for="username" class="form-label">Usuario</label>
+              <input
+                type="text"
+                id="username"
+                class="form-control"
+                placeholder="Rolling"
+                autocomplete="username"
+                aria-label="Username"
+                aria-describedby="basic-addon1"
+              />
+            </div>
+            <div class="mb-3 col-md-7">
+              <label for="name" class="form-label">Nombre</label>
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="Abel"
+                autocomplete="given-name"
+              />
+              <div class="valid-feedback">Looks good!</div>
+            </div>
+            <div class="mb-3 col-md-7">
+              <label for="lastname" class="form-label">Apellido</label>
+              <input
+                type="text"
+                class="form-control"
+                id="lastname"
+                placeholder="Córdoba"
+                autocomplete="family-name"
+              />
+              <div class="valid-feedback">Looks good!</div>
+            </div>
+            <div class="mb-3 col-md-12">
+              <label for="email" class="form-label">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                aria-describedby="emailHelp"
+                placeholder="rollingcode@gmail.com"
+                autocomplete="off"
+              />
+              <div id="emailHelp" class="form-text">
+                No compartiremos tu dirección email.
+              </div>
+            </div>
+            <div class="mb-3 col-md-7">
+              <label for="password" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="password" />
+            </div>
+            <div class="d-grid mt-3 col-12">
+              <button class="btn btn-primary" type="submit">Registrarse</button>
+              <span class="my-3">
+                ¿Ya tienes una cuenta?
+                <a href="">Inicia sesión aquí</a>
+              </span>
+              <p class="warnings" id="warnings"></p>
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
+    <footer class="footer-principal">
+      <div class="copyright">
+        © 2023 Pochocleros.tv Todos los derechos reservados.
+      </div>
+      <div>
+        <a class="linkacerca" href="/pages/nosotros.html">Acerca de nosotros</a>
+        <a class="linkcontacto" href="/pages/contacto.html">Contacto</a>
+      </div>
+      <div class="social-media">
+        <a href="https://es-la.facebook.com/" class="linkface">Facebook</a>
+        <a
+          href="https://twitter.com/i/flow/login?redirect_after_login=%2F%3Flang%3Des"
+          class="linktwitter"
+          >Twitter</a
+        >
+        <a href="https://www.instagram.com/" class="linkinstagram">Instagram</a>
+      </div>
+    </footer>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/registro.js"></script>
+  </body>
+</html>

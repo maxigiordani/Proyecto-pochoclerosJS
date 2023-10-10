@@ -1,0 +1,254 @@
+
+
+/* Navbar */
+
+.navbar-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 3px ;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    z-index: 700; 
+  }
+
+  .titulo {
+    display: flex;
+    position: fixed;
+    left: 110px;
+    text-decoration: none;
+  }  
+
+  .titulo a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .logo img {
+    max-height:100px;
+  }
+  
+.boton {
+  padding: 5px;
+  margin-left: 10px;
+}
+  
+.boton:hover {
+  background-color: #3A01DF;
+  border: none;
+}
+
+
+
+.footer-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+ 
+  .copyright {
+    color: white;
+  }
+
+  .linkacerca {
+    color: white;
+    text-decoration: none;
+ margin: 15px;
+  }
+
+.linkcontacto {
+  color: white;
+  text-decoration: none;
+}
+
+   .linkacerca:hover {
+    background-color: #3A01DF;
+
+   }
+
+   .linkcontacto:hover {
+    background-color: #3A01DF;
+   }
+
+   .linkface {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+
+   }
+   .linktwitter {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+   }
+   .linkinstagram {
+    color: white;
+    margin-left: 15px;
+    margin-right: 30px;
+    text-decoration: none;
+   }
+
+   .linkface:hover {
+    background-color:#3A01DF;
+   }
+
+   .linktwitter:hover {
+    background-color: #3A01DF;
+   }
+
+   .linkinstagram:hover {
+    background-color:#3A01DF;
+   }
+
+
+
+#bodySign {
+    background: #141414;
+    background-image: url(../img/popcorn-wallpaper-28305-29026-hd-wallpapers1.jpg
+    );
+}
+
+#divBodySign {
+    width: 1000px;
+    justify-content: center;
+    background: #ffffff;
+}
+
+#logoSignIn {
+    position: relative;
+    left: 65px;
+    margin-top: 65px;
+    height: 250px;
+    width: 250px;
+}
+
+#signDiv {
+    border: solid;
+    border-color: #69656527;
+    box-shadow: 
+        4px 1px 4px 5px rgba(32, 32, 32, 0.144),
+        4px 1px 4px 4px #3801df5b;
+    border-radius: 15px;
+    background: #ffff;
+    margin: 30px 0 20px 0;
+}
+
+#warnings {
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    color: #2c069e;
+    padding: 15px;
+}
+
+
+#bodyUs {
+    background: #141414;
+}
+
+#mainSection {
+    margin-bottom: -140px;
+}
+
+#mainDiv {
+    position: relative;
+    top: -80px;
+    background: #ffffff;
+}
+
+#titleUs {
+    text-align: center;
+}
+
+#indestructiblesImg {
+    position: relative;
+    left: 4rem;
+    width: 900px;
+    height: auto;
+    margin-top: 90px;
+}
+
+#imgLogoUs {
+    position: relative;
+    left: 40%;
+    width: 20%;
+    height: 20%;
+}
+
+#imgUs {
+    width: 100%;
+    z-index: 10;
+}
+
+#carouselUs {
+    position: relative;
+    right: 0.7rem;
+    width: 102.1%;
+    background-color: #1a1414;
+    background-image: linear-gradient(62deg, #1a1414 0%, #a70918 100%);
+}
+
+#carouselPhoto {
+    position: relative;
+    left: 255px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    padding: 35px;
+}
+
+/* Estilos para el footer en dispositivos móviles */
+@media (max-width: 767px) {
+  .footer-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+    top: 0;
+  }
+
+  .copyright {
+    margin-bottom: 10px;
+  }
+
+  .social-media {
+    margin-top: 10px;
+  }
+
+  .social-media a {
+    margin: 5px;
+  }
+}
+
+/* Estilos generales para hacer elementos responsive */
+/* Ajusta según tus necesidades */
+@media (max-width: 767px) {
+  .navbar-principal {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .titulo {
+    position: relative;
+    left: 0;
+    margin-top: 10px;
+  }
+
+  .logo img {
+    max-height: 80px; /* Ajusta el tamaño del logo en móviles */
+  }
+
+  .boton {
+    margin-left: 0; /* Ajusta el margen en móviles */
+  }
+}
