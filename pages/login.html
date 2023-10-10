@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="author" content="Pablo Maidana" />
+  <meta name="author" content="Pablo Maidana, Maximiliano Giordani, Santiago Maidana, Enzo Campos "/>
   <meta name="description" content="LoginPochocleros" />
   <meta name="keywords" content="peliculas, movies" />
   <link rel="shortcut icon" href="../img/LOGOparaHEADpng.png">
@@ -36,55 +36,55 @@
 
 <body class="d-flex justify-content-center align-items-center vh-100">
   <div class="container d-flex flex-column align-items-center p-5 rounded-5">
-    <div class="login fs-1 mb-3 me-3">
-      <p class="text-white">Ingresar</p>
-    </div>
-    <form class="form ms-5" action="" method="post" id="form">
+      <div class="img me-e">
+          <img src="/img/pochoclerosLOGOpng.png" alt="loginIcon" style="height:  18rem;">
+      </div>
+      <div class="login fs-1 mb-3 me-3"><p class="text-white">Ingresar</p></div>
+      <form class="form ms-5" action="" method="post" id="form">
       <div>
         <div class="formcontrol">
-          <label class="user  my-3">
+          <label class="user  my-3"> 
             <i class="icon fa-solid fa-user-astronaut fa-2xl" style="color: #da2a2a;"></i>
-            <input type="text" placeholder="usuario" id="nombreusuario" class="input rounded-2">
-            <i class="fas fa-check-circle"></i>
-            <i class="fas fa-exclamation-circle"></i>
-            <small>Error message</small>
-          </label>
+             <input type="text" placeholder="usuario" id="nombreusuario" class="input rounded-2" >
+             <i class="fas fa-check-circle"></i>
+             <i class="fas fa-exclamation-circle"></i>
+             <small>Error message</small>
+             </label>
+            </div>
+      <div>
+        <div class="formcontrol">
+          <label class="user my-3"> 
+            <i class="icon fa-solid fa-envelope fa-2xl" style="color: #da2a2a;"></i>
+           <input type="text" placeholder="Correo electrónico" id="email" class="input rounded-3">
+           <i class="fas fa-check-circle"></i>
+           <i class="fas fa-exclamation-circle"></i>
+           <small>Error message</small>
+           </label>
         </div>
-        <div>
-          <div class="formcontrol">
-            <label class="user my-3">
-              <i class="icon fa-solid fa-envelope fa-2xl" style="color: #da2a2a;"></i>
-              <input type="text" placeholder="Correo electrónico" id="email" class="input rounded-3">
-              <i class="fas fa-check-circle"></i>
-              <i class="fas fa-exclamation-circle"></i>
-              <small>Error message</small>
-            </label>
+        <div class="formcontrol">
+              <label class="password my-3">
+                 <i class="icon fa-solid fa-lock fa-2xl" style="color: #da2a2a;"></i>
+                 <input type="password" placeholder="  contraseña" id="password" class="input rounded-2" minlength="8">
+                 <i class="fas fa-check-circle"></i>
+                 <i class="fas fa-exclamation-circle"></i>
+                 <small>Error message</small>
+             </label>
+             </div>
           </div>
-          <div class="formcontrol">
-            <label class="password my-3">
-              <i class="icon fa-solid fa-lock fa-2xl" style="color: #da2a2a;"></i>
-              <input type="password" placeholder="  contraseña" id="password" class="input rounded-2" minlength="8">
-              <i class="fas fa-check-circle"></i>
-              <i class="fas fa-exclamation-circle"></i>
-              <small>Error message</small>
-            </label>
-          </div>
-        </div>
-        <article class="checkbox d-flex flex-row ms-2 my-1">
-          <div class="recordarUser ms-4 fs-5">
-            <input type="checkbox">
+          <article class="checkbox d-flex flex-row ms-2 my-1">
+      <div class="recordarUser ms-4 fs-5">
+              <input type="checkbox">
           </div>
           <p class="text-light ms-4 mt-1 ">Recordar Usuario</p>
         </article>
-        <div>
-          <a href="../pages/recupclave.html" target="_blank" class="link ms-2 fs-5">Olvidé mi contraseña</a>
-        </div>
-        <div class="ms-3">
-          <button type="submit" class=" my-3 d-flex ms-5 p-2 rounded-3" value="iniciar sesion" id="button"
-            onclick="login()">Ingresar</button>
-        </div>
-    </form>
-  </div>
+          <div>
+             <a href="../pages/recupclave.html" target="_blank" class="link ms-2 fs-5">Olvidé mi contraseña</a>
+          </div>
+          <div class="ms-3">    
+             <button type="submit" class=" my-3 d-flex ms-5 p-2 rounded-3" value="iniciar sesion" id="button" onclick="login()">Ingresar</button>
+              </div>
+            </form>
+      </div>
   </div>
   <footer class="footer-principal">
     <div class="copyright">

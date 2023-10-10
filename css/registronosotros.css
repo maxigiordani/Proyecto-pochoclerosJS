@@ -112,8 +112,7 @@
 
 #bodySign {
     background: #141414;
-    background-image: url(../img/popcorn-wallpaper-28305-29026-hd-wallpapers1.jpg
-    );
+    background-image: url(/img/popcornBackground.jpg );
 }
 
 #divBodySign {
@@ -206,7 +205,6 @@
     padding: 35px;
 }
 
-/* Estilos para el footer en dispositivos móviles */
 @media (max-width: 767px) {
   .footer-principal {
     display: flex;
@@ -230,8 +228,7 @@
   }
 }
 
-/* Estilos generales para hacer elementos responsive */
-/* Ajusta según tus necesidades */
+
 @media (max-width: 767px) {
   .navbar-principal {
     flex-direction: column;

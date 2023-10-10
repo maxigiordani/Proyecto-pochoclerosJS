@@ -1,77 +1,81 @@
+
  
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
 }
 
 body {
-    background: linear-gradient(to right, #300404, #a12203);
+  background: linear-gradient(to right, #300404, #a12203);
 }
 
 .container {
-   box-shadow: 0 30px 40px rgb(14, 13, 13); 
-   background-image:linear-gradient( rgba(0,0,0, 0.1), rgba(0,0,0, 0.8) ), url(../img/popcornBackground.jpg);
+ box-shadow: 0 30px 40px rgb(14, 13, 13); 
+ background-image:linear-gradient( rgba(0,0,0, 0.1), rgba(0,0,0, 0.8) ), url(/img/popcornBackground.jpg);
 
 }
 
 
 .formcontrol {
- margin-bottom: 10px;
- padding-bottom: 20px;
- position: relative;
+margin-bottom: 10px;
+padding-bottom: 20px;
+position: relative;
 }
 
 .formcontrol label {
-    display: inline-block;
-    margin-bottom: 5px;
+  display: inline-block;
+  margin-bottom: 5px;
 }
 
 .formcontrol input {
-    border: 2px solid #f0f0f0;
+  border: 2px solid #f0f0f0;
 
 }
 .formcontrol input:focus {
-    outline: 0;
-    border-color: #777;
+  outline: 0;
+  border-color: #777;
 }
 
 .formcontrol.success input {
-    border-color: #2ecc71; 
+  border-color: #2ecc71; 
 }
 .formcontrol.error input {
-    border-color: #e74c3c; 
+  border-color: #e74c3c; 
 }
 .formcontrol i.fas {
-    visibility: hidden ;
-    position: relative;
+  visibility: hidden ;
+  position: relative;
 }
 
 .formcontrol.success i.fa-check-circle {
-    color: #2ecc71;
-    visibility: visible;
+  color: #2ecc71;
+  visibility: visible;
 }
 .formcontrol.error i.fa-exclamation-circle {
-    color: #e74c3c;
-    visibility: visible;
+  color: #e74c3c;
+  visibility: visible;
 }
 
 .formcontrol small {
-    color: #e74c3c;
-    position: absolute;
-    display: flex;
-    flex-direction: row-reverse;
-    margin-left: 150px;
+  color: #e74c3c;
+  background-color: #000;
+  position: absolute;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-left: 80px;
 
-    visibility: hidden;
+  visibility: hidden;
 }
- .formcontrol.error small {
-    visibility: visible;
- }
+.formcontrol.error small {
+  visibility: visible;
+}
 
+.botonenviar {
+  margin-left: 80px;
+}
 
-  
   .navbar-principal {
     display: flex;
     justify-content: space-between;
@@ -81,6 +85,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
+    left: 0;
     z-index: 700;
   }
   
@@ -235,3 +240,5 @@ body {
     background-repeat: no-repeat;
     border: 20px solid rgba(87, 139, 141, 0.5);
   }
+
+
