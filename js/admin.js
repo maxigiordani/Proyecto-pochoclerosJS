@@ -50,7 +50,7 @@ let peliculas = JSON.parse(localStorage.getItem('peliculas')) || [
   
   function llenarTabla() {
     const tbody = document.querySelector('#tablaPeliculas tbody');
-    tbody.innerHTML = ''; // Limpiar el contenido actual de la tabla
+    tbody.innerHTML = ''; 
   
     for (const pelicula of peliculas) {
       const fila = tbody.insertRow();
