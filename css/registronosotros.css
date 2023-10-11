@@ -118,7 +118,7 @@
 #divBodySign {
     width: 1000px;
     justify-content: center;
-    background: #ffffff;
+    background: linear-gradient(to right, #300404, #a12203);
 }
 
 #logoSignIn {
