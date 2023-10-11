@@ -9,25 +9,35 @@
   <link rel="stylesheet" href="/css/bootstrap.min.css">
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="shortcut icon" href="/img/LOGOparaHEADpng.png">
   <title>POCHOCLEROS.TV</title>
 </head>
 
 <body>
   <header>
-    <nav class="navbar-principal">
-      <div class="logo">
-        <a href="/index1.html"><img src="/img/LOGO1.png" alt="logoprincipal"></a>
+    <nav class="navcss navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="/index1.html">
+        <img src="/img/LOGOparaHEADpng.png" alt="logoprincipal">
+      </a>
+      <div class="navbar-title">
+        <h3>POCHOCLEROS.TV</h3>
       </div>
-      <div class="titulo">
-        <h1 class="h2">
-          <a href="/index1.html">POCHOCLEROS.TV</a>
-        </h1>
-      </div>
-      
-      <div class="nav-buttons">
-        <a href="/index1.html"><button class="boton btn btn-light btn-lg ml-2 px-3">Inicio</button></a>
-        <a href="/pages/login.html"><button class=" boton btn btn-light btn-lg ml-2 px-3">Login</button></a>
-        <a href="/pages/registro.html"><button class=" boton btn btn-light btn-lg ml-2 px-3">Registro</button></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="btn botonnav" href="/index1.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn botonnav" href="/pages/login.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn botonnav" href="/pages/registro.html">Registro</a>
+          </li>
+        </ul>
       </div>
     </nav>
   </header>
@@ -38,7 +48,7 @@
         <h1 class="titulo-principal display-2">PULPFICTION</h1>
         <p class="parrafo-principal strong text-stroke font-weight-bold">Esta icónica película de Tarantino nos sumerge
           en un mundo de violencia y autoparodia única, lo que la hace una obra maestra.</p>
-        <a href="/pages/detalle-pulp.html">
+        <a class="linkboton" href="/pages/detalle-pulp.html">
           <button type="button" class="boton-reproducir btn btn-danger btn-lg">REPRODUCIR</button>
         </a>
       </div>
@@ -194,14 +204,15 @@
       © 2023 Pochocleros.tv Todos los derechos reservados.
     </div>
     <div>
-      <a class="linkacerca" href="#">Acerca de nosotros</a>
-      <a class="linkcontacto" href="/pages/contacto.html">Contacto</a>
+      <a class="linkacerca mx-3" href="#">Acerca de nosotros</a>
+      <a class="linkcontacto mx-3" href="/pages/contacto.html">Contacto</a>
     </div>
     <div class="social-media">
-      <a href="https://es-la.facebook.com/" class=" linkface  "> Facebook</a>
-      <a href="https://twitter.com/i/flow/login?redirect_after_login=%2F%3Flang%3Des" class=" linktwitter ">Twitter</a>
+      <a href="https://es-la.facebook.com/" class=" linkface mx-3 "> Facebook</a>
+      <a href="https://twitter.com/i/flow/login?redirect_after_login=%2F%3Flang%3Des"
+        class=" linktwitter mx-3 ">Twitter</a>
       </li>
-      <a href="https://www.instagram.com/" class=" linkinstagram"> Instagram</a></li>
+      <a href="https://www.instagram.com/" class=" linkinstagram mx-3"> Instagram</a></li>
     </div>
   </footer>
   <script src="js/bootstrap.bundle.min.js"></script>
