@@ -135,8 +135,8 @@ body {
 
 .overlay {
   position: absolute;
-  top: 180px;
-  left: 20px;
+  top: 150px;
+  left: 2px;
   width: 100%;
   height: 100%;
   display: flex;
@@ -146,23 +146,15 @@ body {
 
 }
 
-.play{
-  display:block;
-  margin:auto;
-  background:url("http://www.lexus.com/lexus-share/v2/img/play-button.svg");
-  background-size:160px 160px;
-  background-position:50% 50%;
-  background-repeat:no-repeat;
-  width:200px;
-  height:200px;
-  border:9px dashed rgba(104,172,174,1);
-  border-radius:80%;
-  box-sizing:border-box;
-  transition:0.125s ease;
-  }
+.play-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 8em;
+  margin-left: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
 
-.play:hover{background-size:180px 180px;
-  background-position:50% 50%;
-  background-repeat:no-repeat;
-  border:20px solid rgba(87,139,141,0.5);
+.botonplay {
+  color: white;
 }
